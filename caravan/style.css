@@ -62,21 +62,65 @@ header .heading {
   color: #fff;
 }
 
-.main {
-  width: 840px;
+main {
+  width: 800px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  padding: 70px 0;
 }
 
 .blog {
-  width: 600px;
-  height: 1400px;
+  width: 540px;
+  margin-right: 30px;
+}
+
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.content {
+  width: 800px;
+  display: flex;
+  margin: 50px 0;
+}
+
+.image {
+  width: 250px;
+  /*height: auto;*/
+}
+
+.content-item {
+  padding: 30px 0 0 20px;
+}
+
+.content-text {
+  padding-bottom: 5px;
+  font-size: large;
+}
+
+.sub {
+  display: flex;
+  font-size: 0.7em;
+}
+
+.content-date {
+
+}
+
+.id {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
 }
 
 .sidebar {
-  width: 240px;
-  height: 1400px;
+  width: 230px
 }
 
 footer {
