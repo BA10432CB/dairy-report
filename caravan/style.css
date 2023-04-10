@@ -65,10 +65,6 @@ header .heading {
   padding-top: 105px;
 }
 
-/*.main-visual-content p{*/
-  /*color: white;*/
-/*}*/
-
 .main-visual-text {
   color: #fff;
 }
@@ -153,7 +149,7 @@ main {
 }
 
 .sidebar {
-  width: 230px
+  width: 230px;
 }
 
 .common-heading {
@@ -170,7 +166,7 @@ main {
 .categories-text{
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
-  margin-gottom: 5px;
+  margin-bottom: 5px;
 }
 
 .popular-text:last-child,
@@ -231,4 +227,99 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+/*スマホ*/
+@media screen and (max-width:425px)  {
+  header {
+    width: 100%;
+  }
+
+  .social {
+  display: none;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    display: block;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+  width: 100%;
+  display: block;
+  }
+
+  .blog {
+  width: 100%;
+  margin-right: 30px;
+  }
+
+  .blog-item {
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .blog-image {
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .blog-text {
+    padding: 25px 12px 0 20px;
+  }
+
+  .blog-text-heading {
+    padding-bottom: 15px;
+  }
+
+  .blog-date {
+    display: inline;
+    font-size: 1em;
+  }
+
+  .category {
+    display: none;
+  }
+  .pagination {
+    padding-top: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .sidebar-contents {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .popular-text,
+  .categories-text{
+    margin-bottom: 5px;
+  }
+
+  .instagram-box {
+    width: 47%;
+  }
+
+  .instagram-box::before {
+    content: "";
+    display: block;
+    padding-top: 45%;
+  }
+
+  .instagram-box:nth-child(odd) {
+  margin: 0 10px 10px 0;
+  }
+
 }
